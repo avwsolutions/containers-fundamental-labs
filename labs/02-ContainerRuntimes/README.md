@@ -40,9 +40,9 @@ sudo runc run hello_container
 ```
 
 Now answer the following questions:
-- Can you open a `bash` shell?
-- What is the output of `pwd`?
-- Explain why you can't run `ls` or other system commands.
+- What is the purpose of the `rootfs` folder?
+- Why do you have to update the `spec` file?
+- Can you easily change the `container-id`?
 
 ### Exercise 1.2 - Work with ContainerD
 
@@ -72,14 +72,19 @@ You can also run the image as background task.
 sudo ctr tasks start -d redis
 ```
 
-Now try to communicate with the Redis workload
+Now try to communicate with the Redis workload.
 
 ```
 sudo ctr tasks exec --exec-id 1 redis redis-cli ping
 ```
 
+Now answer the following questions:
+- Which commands does `ctr run` combine?
+- Can you also list all background tasks with `ctr`?
+- What is the response when executing `redis-cli ping`?
+
 ## Next Steps
 
-You are ready to start with the second lab about [Docker Desktop](../03-DockerDesktop/README.md). Be aware that the trainer might have to explain the training material and provide additional instructions for a jump start.
+You are ready to start with the second lab about [Docker CE](../03-DockerCE/README.md). Be aware that the trainer might have to explain the training material and provide additional instructions for a jump start.
 
 Enjoy the exercises!!!
