@@ -13,8 +13,8 @@ If you are unable to complete certain exercises, no problem. You can always comp
 | 3   | [Docker CE](03-DockerCE/README.md) | In this lab during the exercises attendees will learn about how to setup an Docker CE Engine or a local Docker Desktop environment.|
 | 4   | [Image Management](04-ImageManagement/README.md) | In this lab during the exercises attendees will learn about managing and maintaining images.|
 | 5   | [Container Management](05-ContainerManagement/README.md) | In this lab during the exercises attendees will learn about managing and maintaining containers.|
-| 6   | [Container Network](06-ContainerNetwork/README.md) | In this lab during the exercises attendees will learn.|
-| 7   | [Container Storage](07-ContainerStorage/README.md) | In this lab during the exercises attendees will learn.|
+| 6   | [Container Network](06-ContainerNetwork/README.md) | In this lab during the exercises attendees will learn about host, bridge driver and connecting multiple containers to a virtual network.|
+| 7   | [Container Volumes](07-ContainerVolumes/README.md) | In this lab during the exercises attendees will learn about virtual volumes and how they can connect/consumed by containers.|
 | 8   | [Container Development](08-ContainerDevelopment/README.md) | In this lab during the exercises attendees will learn about.|
 
 ## Prerequisites

@@ -88,6 +88,6 @@ Now answer the following questions:
 
 ## Next Steps
 
-You are ready to start with the second lab about [Container Network](../06-ContainerNetwork/README.md). Be aware that the trainer might have to explain the training material and provide additional instructions for a jump start.
+You are ready to start with the second lab about [Container Storage](../07-ContainerStorage/README.md). Be aware that the trainer might have to explain the training material and provide additional instructions for a jump start.
 
 Enjoy the exercises!!!
