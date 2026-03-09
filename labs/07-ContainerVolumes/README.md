@@ -10,15 +10,7 @@ The following key topics are part of these exercises:
 
 ## Exercise 1 - Exploring Container Volumes
 
-This  exercise we are going to explore all `container storage` options which are available for Containers.
-Options are:
-- host -> Local directly 1:1 mapping to host.
-- null -> Local no network, say /dev/null.
-- bridge -> Local indirectly managed through configured ports (80:80).
-- multi-host -> Aka overlay for Docker Swarm.
-
-We will look into small experiment with both `bridge` and `host` network.
-In essence the default is `bridge`, which is preffered for local and `compose` development.
+This  exercise we are going to explore most important local storage options. It helps to share data between containers, like data files, quorums or make database stateful, which makes it easy to recreate a container without loosing application data.
 
 ### Exercise 1.1 - Provided CLI commands
 
