@@ -75,6 +75,10 @@ htop
 pkill -9 stress
 ```
 
+Write down the percentage CPU usage of the `stress` proces.
+
+Ensure you have successfully stopped the proces before continueing this exercise.
+
 Now let's create a throttled proces on `cpu.max` resource.
 
 ```
@@ -90,6 +94,23 @@ cgexec -g cpu:throttled stress --cpu 1 &
 htop
 pkill -9 stress
 ```
+
+Now answer the following questions:
+- What is the percentage CPU usage now?
+- Is there a noticable difference with the previous result?
+- Now increase the max number from 5000 til 50000.
+- Restart the proces to see the effect.
+
+## Exercise 2 - Explore the Open Container Initiative
+
+This second exercise you are going to answer some questions about the Open Container Initiative. OCI has an ultimate goal to make containers an `open standard`.
+
+Open your browser and go to the [OCI Website](https://opencontainers.org/).
+
+Now answer the following questions:
+- Write down three members of this initiave.
+- What is the latest Specification version?
+- Go through the FAQ and find the date when `v1.0.0` was released.
 
 ## Next Steps
 
